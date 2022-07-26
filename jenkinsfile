@@ -1,0 +1,31 @@
+pipeline{
+
+  agent any
+
+  stages{
+    stage("build"){
+      steps{
+        echo "building the app."
+      }
+    }
+
+    stage("test"){
+      steps{
+        echo "testing the app."
+      }
+    }
+
+    stage("upload to S3"){
+      steps{
+        // script{
+        //   dir(''){
+        //     pwd();
+        //     withAWS(region:'us-east-1', credentials:'')
+
+        //   }
+        // }
+        echo "deploying the app."
+      }
+    }
+  }
+}
