@@ -17,13 +17,6 @@ pipeline{
 
     stage("upload to S3"){
       steps{
-        // script{
-        //   dir(''){
-        //     pwd();
-        //     withAWS(region:'us-east-1', credentials:'')
-
-        //   }
-        // }
         echo "deploying the app."
       }
     }
