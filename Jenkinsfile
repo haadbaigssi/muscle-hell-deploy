@@ -1,10 +1,9 @@
 pipeline{
-  agent any
-  
-  environment {
-    CI = 'true'
-    HOME = '.'
-    npm_config_cache = 'npm-cache'
+  agent {
+    docker {
+        image 'node:lts-bullseye-slim' 
+        args '-p 3000:3000' 
+    }
   }
 
   stages{
