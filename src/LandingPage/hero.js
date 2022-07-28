@@ -9,7 +9,7 @@ function Hero(params) {
             <h1 class="title-font sm:text-4xl text-3xl text-yellow-300 mb-4 font-medium">Everybody needs a tune-up
                 <br/>
             </h1>
-            <p class="mb-8 leading-relaxed text-white">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+            <p class="mb-8 leading-relaxed text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <div class="flex justify-center">
             <div class="py-2"></div>
                 <Buttons  title='Login' bcolor='' bHoverColor='red-600' tcolor='white'/>
